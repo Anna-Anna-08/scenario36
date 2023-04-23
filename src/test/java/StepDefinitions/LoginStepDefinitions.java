@@ -47,7 +47,7 @@ public class LoginStepDefinitions {
     }
 
     @When("click the {string} button")
-    public void click_the_button(String buttonName) {
+    public void click_the_button() {
         loginPage.clickLoginButton();
     }
 
